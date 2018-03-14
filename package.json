@@ -1,0 +1,28 @@
+{
+  "name": "divi",
+  "version": "1.0.0",
+  "description": "A nodejs library for Divi",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Divicoin/node-divi.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "blockchain"
+  ],
+  "author": "99darwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Divicoin/node-divi/issues"
+  },
+  "homepage": "https://github.com/Divicoin/node-divi#readme"
+}
