@@ -1,5 +1,5 @@
 {
-  "name": "divi",
+  "name": "node-divi",
   "version": "1.0.0",
   "description": "A nodejs library for Divi",
   "main": "index.js",
