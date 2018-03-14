@@ -24,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/Divicoin/node-divi/issues"
   },
-  "homepage": "https://github.com/Divicoin/node-divi#readme"
+  "homepage": "https://github.com/Divicoin/node-divi#readme",
+  "dependencies": {
+    "http": "0.0.0",
+    "https": "^1.0.0"
+  }
 }
