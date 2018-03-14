@@ -536,11 +536,5 @@ npm install -g nodeunit
 nodeunit test/test-node-divi.js
 ```
 
-## Bounties
-
-[Divi](http://www.divi.com) donation address is DE4isu3m2RBma7nGEwnaX8cu4Y2m2J2g8Q
-
-Donations in [divi](http://www.divi.com) will be used for bounties. The first bounty will be awarded for creating a unit test suite. As a side note: I encourage all GitHub repository owners to post a donation address so their community can easily support development financially. If you accept donations at your repository, [I'll send you a reward!](http://www.reddit.com/r/dogecoindev/comments/203ojs/add_a_dogecoin_donation_link_in_your_github_repo/)
-
 
 
