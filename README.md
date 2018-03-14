@@ -9,7 +9,7 @@ node-divi is a Divi client for Node.js. It is a fork of the excellent Kapitalize
 
 ## Dependencies
 
-You'll need a running instance of [divid](https://github.com/divicoin/divi) to connect with. If you're running Debian/Ubuntu, this worked for me: http://www.dogeco.in/wiki/index.php/Dogecoind
+You'll need a running instance of [divid](https://github.com/divicoin/divi) to connect with.
 
 Then, install the node-divi NPM package.
 
