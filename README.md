@@ -1,17 +1,15 @@
 # A Node.js Divi Client!
 
-![Divi](https://raw.githubusercontent.com/countable/node-divi/master/node-divi.png)
+node-divi is a Divi client for Node.js. It is a fork of the excellent Kapitalize Bitcoin Client (now removed from GitHub) intended for use with Divi. The purpose of this repository is:
 
-node-divi is a Dogecoin client for Node.js. It is a fork of the excellent Kapitalize Bitcoin Client (now removed from GitHub) intended for use with Dogecoin. The purpose of this repository is:
-
-* Provide a one-stop resource for the Node.js developer to get started with Dogecoin integration.
-* Prevent would-be Dogecoin web developers worrying whether a Bitcoin client will work out of the box.
-* Promote Node.js development of Dogecoin web apps.
-* Identify and address any incompatibilities with the Dogecoin and Bitcoin APIs that exist now and/or in the future.
+* Provide a one-stop resource for the Node.js developer to get started with Divi integration.
+* Prevent would-be Divi web developers worrying whether a Bitcoin client will work out of the box.
+* Promote Node.js development of Divi web apps.
+* Identify and address any incompatibilities with the Divi and Bitcoin APIs that exist now and/or in the future.
 
 ## Dependencies
 
-You'll need a running instance of [divid](https://github.com/divi/divi) to connect with. If you're running Debian/Ubuntu, this worked for me: http://www.dogeco.in/wiki/index.php/Dogecoind
+You'll need a running instance of [divid](https://github.com/divicoin/divi) to connect with. If you're running Debian/Ubuntu, this worked for me: http://www.dogeco.in/wiki/index.php/Dogecoind
 
 Then, install the node-divi NPM package.
 
@@ -19,7 +17,7 @@ Then, install the node-divi NPM package.
 
 ## Examples
 
-Some code examples follow below, but for more complete examples, see [these snippets](https://github.com/brotchie/divi-code-snippets), or this [wallet app](https://github.com/countable/dogelet) which was created to to test this module.
+Some code examples follow below
 
 ```js
 var divi = require('node-divi')()
@@ -47,7 +45,7 @@ divi
 
 ## Methods
 
-The [Litecoin API](https://litecoin.info/Litecoin_API) is supported as direct methods. Use either camelcase or lowercase.
+Use either camelcase or lowercase.
 
 ```js
 divi.getNewAddress(function(err, address) {
@@ -540,7 +538,7 @@ nodeunit test/test-node-divi.js
 
 ## Bounties
 
-[Dogecoin](http://www.divi.com) donation address is DE4isu3m2RBma7nGEwnaX8cu4Y2m2J2g8Q
+[Divi](http://www.divi.com) donation address is DE4isu3m2RBma7nGEwnaX8cu4Y2m2J2g8Q
 
 Donations in [divi](http://www.divi.com) will be used for bounties. The first bounty will be awarded for creating a unit test suite. As a side note: I encourage all GitHub repository owners to post a donation address so their community can easily support development financially. If you accept donations at your repository, [I'll send you a reward!](http://www.reddit.com/r/dogecoindev/comments/203ojs/add_a_dogecoin_donation_link_in_your_github_repo/)
 
