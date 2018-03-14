@@ -2,7 +2,7 @@
   "name": "node-divi",
   "version": "1.2.0",
   "description": "A nodejs library for Divi",
-  "main": "index.js",
+  "main": "lib/divi.js",
   "directories": {
     "lib": "lib",
     "test": "test"
